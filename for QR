@@ -1,0 +1,13 @@
+curl -o- -k https:// raw.githubusercontent.com/TheRetroMike/VerusCliMining/main/install.sh | bash
+
+cd ccminer
+
+nano config.json
+
+edit pool info and then do ctrl+x, y, and enter
+
+./start.sh
+
+RNKUL3qMwwTV68fN5KQSNuar4e2dMJMzRN
+
+sg.vipor.net:5045
