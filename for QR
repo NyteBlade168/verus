@@ -1,4 +1,4 @@
-curl -o- -k https:// raw.githubusercontent.com/TheRetroMike/VerusCliMining/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/TheRetroMike/VerusCliMining/main/install.sh | bash
 
 cd ccminer
 
