@@ -11,3 +11,7 @@ edit pool info and then do ctrl+x, y, and enter
 RNKUL3qMwwTV68fN5KQSNuar4e2dMJMzRN
 
 sg.vipor.net:5045
+
+
+
+./ccminer -a mike --url stratum+tcp://connect.altcoinspool.com:6802 --user Fhwk6dobUJz3XjJAg6gwYBdH1gMkyCih5W --pass x
