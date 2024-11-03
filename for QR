@@ -14,4 +14,17 @@ sg.vipor.net:5045
 
 
 
-./ccminer -a mike --url stratum+tcp://connect.altcoinspool.com:6802 --user Fhwk6dobUJz3XjJAg6gwYBdH1gMkyCih5W --pass x
+-XMRig-
+apt-get install git build-essential cmake automake libtool autoconf
+
+git clone https://github.com/xmrig/xmrig.git
+
+mkdir xmrig/build && cd xmrig/scripts
+
+./build_deps.sh && cd ../build
+
+cmake .. -DXMRIG_DEPS=scripts/deps
+make -j$(nproc)
+
+
+/root/xmrig/build/./xmrig -a mike -o stratum+tcp://connect.altcoinspool.com:6802 -u Fhwk6dobUJz3XjJAg6gwYBdH1gMkyCih5W -p x -t 4
